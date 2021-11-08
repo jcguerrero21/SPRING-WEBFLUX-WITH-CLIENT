@@ -29,7 +29,7 @@ public class ProductoHandler {
 
     private ProductoService productoService;
 
-    @Value("${spring.uploads.path}")
+    @Value("${config.uploads.path}")
     private String path;
 
     @Autowired

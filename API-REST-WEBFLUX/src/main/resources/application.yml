@@ -6,3 +6,5 @@ spring:
 config:
   uploads:
     path: C:/SpringWebFlux/uploads//
+  base.endpoint: /api/v2/productos
+
